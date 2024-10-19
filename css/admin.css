@@ -1,0 +1,127 @@
+/*Allgemeines*/
+
+html {
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'League Spartan';
+  }
+  
+
+body {
+    margin: 0;
+    overflow: scroll;
+    height: 100vh;
+    
+}
+
+.vm-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.vm-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.total-cost {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.total-cost h2 {
+    margin-top: 0;
+}
+
+.total-cost p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navbar */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10 30 0px; 
+    font-family: 'League Spartan';
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.navbar-start {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+.logo {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: gray;
+  }
+  
+  

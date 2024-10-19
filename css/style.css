@@ -1,0 +1,227 @@
+/* Allgemein */
+html {
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'League Spartan';
+  }
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+body {
+    margin: 0;
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+
+/* Price List */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px; 
+  flex-direction: column;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #333; 
+  padding: 20px; 
+  margin: 20px; 
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1); 
+}
+
+.unsere-dienste-IaaS {
+  font-size: 8rem;
+}
+
+.logofavicon {
+  width: 50px;
+  height: auto;
+}
+/* Kunden */
+h2 {
+  color: #333;
+}
+
+
+.customer-figure {
+  align-items: center;
+  padding-top: 140px;
+  padding-left: 430px;
+  text-align: center;
+}
+
+.customer-figure img {
+  width: 100px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.customer-figure p {
+  color: #555;
+  font-size: 1.5rem;
+}
+/* Navbar */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10 30 0px; 
+    font-family: 'League Spartan';
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.navbar-start {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+.logo {
+    height: 50px; 
+    margin-right: 10px; 
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+/* 1. Seite CSS-Snap */
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 20rem;
+    color : #ffffff;
+  }
+
+.slogantext{
+    color: black;
+}
+
+.head-description {
+    margin-top: 9rem;
+    display: inline-flex;
+    flex-direction: column;
+    height: 5.125rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+  }
+  
+  .head-description p {
+    width: 60rem;
+  
+    font-family: "Roboto";
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+  }  
+
+
+/* Section */
+
+section {
+    position: relative;
+    height: 100vh;
+    scroll-snap-align: start; 
+    display: flex;
+  }
+  
+section:nth-of-type(even) {
+    background: #97A8F6 ;
+}
+  
+section:nth-of-type(odd) {
+    background: white;
+}
+
+
+/* Unsere Dienstleistungen */
+
+.unsere-dienste-description {
+    margin-top: 2rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+  
+  .unsere-dienste-description p {
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: normal;
+  }
+  
+  .unsere-dienste-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  
